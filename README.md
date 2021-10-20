@@ -7,18 +7,18 @@ Quick start template for react apps, with Dockerfile
 npm install
 ```
 ### Start
-```
+```bash
 npm start
 ```
 ### Build & Run
 > via Docker
-```
+```bash
 docker build -t <app-tag> .
 docker run -p <local port>:<docker container port> -d <app-tag>
 ```
 
 > via Node(using serve)
-```
+```bash
 npm run build
 # install serve if you haven't (other works too if you prefer)
 npm install -g serve
